@@ -21,9 +21,11 @@ public class DanielVasconcelos {
         media = (a1 + a2 + a3) / 5;
         
         if (media <= 6.0) {
-            System.err.println("Sua média final foi: "+media+"VOCÊ FOI REPROVADO !");
+            System.err.println("Sua média final foi: "+media);
+            System.err.println("VOCÊ FOI REPROVADO !");
         } else {
-            System.out.println("Sua média final foi: "+media+" ! VOCÊ ESTÁ APROVADO !");
+            System.out.println("Sua média final foi: "+media);
+            System.out.println("VOCÊ ESTÁ APROVADO !");
         }
         
     }
