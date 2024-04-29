@@ -20,7 +20,7 @@ public class DanielVasconcelos {
         a3 = a3 * 2;
         media = (a1 + a2 + a3) / 5;
         
-        if (media <= 6.0) {
+        if (media < 6.0) {
             System.err.println("Sua média final foi: "+media);
             System.err.println("VOCÊ FOI REPROVADO !");
         } else {
